@@ -1,8 +1,9 @@
 package com.snooze.amazonbookdetailssection.dto;
 
-import com.snooze.amazonbookdetailssection.dto.BookCoverType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import lombok.*;
+import org.springframework.validation.annotation.Validated;
 
 @Embeddable
 @AllArgsConstructor
@@ -19,16 +20,4 @@ public class ProductInformation {
     protected double itemWeight;
     protected String dimensions;
 
-//    public static void main(String[] args) {
-//        ProductInformation information = new ProductInformation("Asdfsad",
-//                "Pendgiun",
-//                "English",
-//                BookCoverType.HARDCOVER,
-//                "2132342323",
-//                "232-232323",
-//                21.3,
-//                "23 x 3 inches");
-//
-//        System.out.println(information);
-//    }
 }

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    height: 100vh;
+}
+
+.header{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-primary{
+    text-transform: uppercase;
+}
+
+.header-primary-main{
+    display: block;
+}
+
+.header-primary-sub{
+    display: block;
+}
+
+.information-div{
+    margin: 31px;
+}
+
+.information{
+    padding: 19px;
+    text-decoration: none;
+}
+
+.form{
+    text-align: center;
+}
+
+.legend-primary{
+    margin-bottom: 100px;
+}
+
+input{
+    outline: none;
+}
+
+.input{
+    width: 50vh;
+    height: 30px;
+    margin: 11px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #bae4f4;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 2px;
+    background-color: #c4def0;
+    border: none;
+}
+
+/*Card*/
+.Card{
+    margin-bottom: 40px;
+}
