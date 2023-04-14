@@ -3,6 +3,7 @@ package com.snooze.amazonbookdetailssection.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+
 @Entity
 @AllArgsConstructor @NoArgsConstructor
 @Setter @Getter
