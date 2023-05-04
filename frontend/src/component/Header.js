@@ -1,3 +1,4 @@
+import Layout from "./Layout";
 
 function Header(){
 
